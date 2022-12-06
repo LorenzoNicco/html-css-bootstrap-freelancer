@@ -1,0 +1,36 @@
+/********************************************
+ REGOLE GENERALI
+********************************************/
+.debug .star-placeholder {
+    height: 50px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+/********************************************
+ HEADER
+********************************************/
+.debug #header-nav .logo {
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.debug #header-nav li {
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.debug #jumbo .img-placeholder {
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+/********************************************
+ MAIN
+********************************************/
+.debug #portfolio .img-placeholder {
+    height: 400px;
+    background-color: coral;
+    border: 1px solid black;
+}
