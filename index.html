@@ -20,17 +20,28 @@
             <!-- sezione nav -->
             <section id="header-nav" class="dark-color-bg">
                 <div class="container py-3">
-                    <div class="row">
+                    <div class="row align-items-center">
                         <div class="logo col">
                            <h3 class="text-white">START BOOTSTRAP</h3>
                         </div>
 
-                        <nav class="col text-end">
-                            <ul class="row list-unstyled">
-                                <li class="col text-white">PORTFOLIO</li>
-                                <li class="col text-white">ABOUT</li>
-                                <li class="col text-white">CONTACT</li>
-                            </ul>
+                        <nav class="navbar navbar-expand-md col-sm-1 col-md-4">
+                            <button class="navbar-toggler text-white border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="bi bi-list"></i>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white active" href="#">PORTFOLIO</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">ABOUT</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#"> CONTACT</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </nav>
                     </div>
                 </div>
@@ -78,28 +89,52 @@
                             </div>
         
                             <div class="row g-3">
-                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="portfolio-pic col-sm-12 col-md-6 col-lg-4 position-relative">
                                     <img src="bootstrap_freelancer/img/cabin.png" alt="Immagine non trovata" class="rounded-3">
+
+                                    <div class="overlay rounded-3">
+                                        <i class="fa-solid fa-plus text-white fa-5x position-absolute top-50 start-50 translate-middle"></i>
+                                    </div>
                                 </div>
         
-                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="portfolio-pic col-sm-12 col-md-6 col-lg-4 position-relative">
                                     <img src="bootstrap_freelancer/img/cake.png" alt="Immagine non trovata" class="rounded-3">
+
+                                    <div class="overlay rounded-3">
+                                        <i class="fa-solid fa-plus text-white fa-5x position-absolute top-50 start-50 translate-middle"></i>
+                                    </div>
                                 </div>
         
-                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="portfolio-pic col-sm-12 col-md-6 col-lg-4 position-relative">
                                     <img src="bootstrap_freelancer/img/circus.png" alt="Immagine non trovata" class="rounded-3">
+
+                                    <div class="overlay rounded-3">
+                                        <i class="fa-solid fa-plus text-white fa-5x position-absolute top-50 start-50 translate-middle"></i>
+                                    </div>
                                 </div>
                                 
-                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="portfolio-pic col-sm-12 col-md-6 col-lg-4 position-relative">
                                     <img src="bootstrap_freelancer/img/game.png" alt="Immagine non trovata" class="rounded-3">
+
+                                    <div class="overlay rounded-3">
+                                        <i class="fa-solid fa-plus text-white fa-5x position-absolute top-50 start-50 translate-middle"></i>
+                                    </div>
                                 </div>
         
-                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="portfolio-pic col-sm-12 col-md-6 col-lg-4 position-relative">
                                     <img src="bootstrap_freelancer/img/safe.png" alt="Immagine non trovata" class="rounded-3">
+
+                                    <div class="overlay rounded-3">
+                                        <i class="fa-solid fa-plus text-white fa-5x position-absolute top-50 start-50 translate-middle"></i>
+                                    </div>
                                 </div>
         
-                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="portfolio-pic col-sm-12 col-md-6 col-lg-4 position-relative">
                                     <img src="bootstrap_freelancer/img/submarine.png" alt="Immagine non trovata" class="rounded-3">
+
+                                    <div class="overlay rounded-3">
+                                        <i class="fa-solid fa-plus text-white fa-5x position-absolute top-50 start-50 translate-middle"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -160,7 +195,7 @@
                             
                                 <textarea name="text" placeholder="Message" class="py-2 border border-0 border-bottom w-100" cols="30" rows="5"></textarea>
 
-                                <button class="btn text-white lightblue-bg mt-2">Send</button>
+                                <button>Send</button>
                             </form>
                         </div>
                     </div>

@@ -44,6 +44,43 @@
     padding-top: 0.75rem;
 }
 
+#contact button {
+    padding: 0.375rem 0.75rem;
+    background-color: var(--lightblue-color);
+    border: 1px solid transparent;
+    border-radius: 0.375rem;
+    color: white;
+    margin-top: 0.5rem;
+}
+
+#portfolio .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    margin: 0 0.5rem;
+}
+
+/********************************************
+ HOVER
+********************************************/
+#header-nav .nav-item > .nav-link:hover {
+    color: var(--lightblue-color);
+}
+
+#portfolio .portfolio-pic:hover .overlay {
+    display: block;
+} 
+
+#contact button:hover {
+    background-color: white;
+    color: var(--lightblue-color);
+    border-color: var(--lightblue-color);
+}
+
 /********************************************
  VARIABILI
 ********************************************/
