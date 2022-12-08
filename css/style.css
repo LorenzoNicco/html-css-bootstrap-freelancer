@@ -36,6 +36,7 @@
     width: 100%;
 }
 
+/* icone */
 #finder i {
     border: 1px solid white;
     border-radius: 50%;
@@ -44,6 +45,21 @@
     padding-top: 0.75rem;
 }
 
+.star > .dash-w {
+    background-color: white;
+    height: 3px;
+    width: 7rem;
+    border-radius: 8px;
+}
+
+.star > .dash-bl {
+    background-color: var(--lightblack-color);
+    height: 3px;
+    width: 7rem;
+    border-radius: 8px;
+}
+
+/* features */
 #contact button {
     padding: 0.375rem 0.75rem;
     background-color: var(--lightblue-color);
@@ -64,13 +80,13 @@
     margin: 0 0.5rem;
 }
 
+form > input {
+    outline: none;
+}
+
 /********************************************
  HOVER
 ********************************************/
-#header-nav .nav-item > .nav-link:hover {
-    color: var(--lightblue-color);
-}
-
 #portfolio .portfolio-pic:hover .overlay {
     display: block;
 } 
